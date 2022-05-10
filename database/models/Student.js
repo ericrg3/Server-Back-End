@@ -15,7 +15,25 @@ const Student = db.define("student", {
   lastname: {
     type: Sequelize.STRING,
     allowNull: false
-  }
+  },
+
+  email: {
+    type: Sequelize,STRING,
+    allowNull: false
+  },
+
+  imageUrl: {
+    type: Sequelize.STRING,
+    allowNull: true,
+    defaultValue: "https://us.123rf.com/450wm/yupiramos/yupiramos1804/yupiramos180408171/99263812-hand-drawn-man-student-avatar-character-vector-illustration-design.jpg?ver=6" 
+    },
+
+  gpa: {
+    type: Sequelize,FLOAT,
+    allowNull: false,
+    min: 0,
+    max: 4
+  },
 });
 
 // Export the student model

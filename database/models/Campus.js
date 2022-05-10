@@ -12,6 +12,11 @@ const Campus = db.define("campus", {
     type: Sequelize.STRING,
     allowNull: false
   },
+  
+  imageUrl: {
+  type: Sequelize.STRING,
+  defaultValue: "https://www.bestcollegesonline.org/wp-content/uploads/2015/01/florida-state-university-online-graduation-rates.jpg" 
+  },
 
   address: {
     type: Sequelize.STRING,
@@ -19,7 +24,7 @@ const Campus = db.define("campus", {
   },
 
   description: {
-    type: Sequelize.STRING,
+    type: Sequelize.TEXT,
   }
 });
 
