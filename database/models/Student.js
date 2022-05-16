@@ -18,7 +18,7 @@ const Student = db.define("student", {
   },
 
   email: {
-    type: Sequelize,STRING,
+    type: Sequelize.STRING,
     allowNull: false
   },
 
@@ -29,10 +29,12 @@ const Student = db.define("student", {
     },
 
   gpa: {
-    type: Sequelize,FLOAT,
-    allowNull: false,
-    min: 0,
-    max: 4
+    type: Sequelize.FLOAT,
+    allowNull: true,
+    validate: {
+      min: 0,
+      max: 4
+    }
   },
 });
 
