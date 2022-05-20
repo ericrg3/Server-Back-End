@@ -2,7 +2,7 @@ Group Members/ Github
 
 Eric Gonzalez/ ericrg3
 
-link: (https://github.com/ericrg3/Server-Back-End)
+link: https://github.com/ericrg3/Server-Back-End
 
 # Server-Back-End
 
