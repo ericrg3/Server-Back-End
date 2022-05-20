@@ -1,3 +1,9 @@
+Group Members/ Github
+
+Eric Gonzalez/ ericrg3
+
+link: (https://github.com/ericrg3/Server-Back-End)
+
 # Server-Back-End
 
 This repository is the server (back-end) starter code for Final Project (CRUD Application).
